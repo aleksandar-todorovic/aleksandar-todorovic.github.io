@@ -16,3 +16,6 @@ facebook_username:    aleksandar.todorovic.r3bl
 markdown: kramdown
 
 permalink: /:categories/:title/
+
+gems:
+  - jekyll-sitemap
