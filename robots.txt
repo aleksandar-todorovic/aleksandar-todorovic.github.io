@@ -4,3 +4,4 @@ Disallow: .gitignore
 Disallow: CNAME
 Disallow: _config.yml
 Disallow: /page
+Sitemap: http://r3bl.me/sitemap.xml
