@@ -3,3 +3,4 @@ Disallow: /assets/
 Disallow: .gitignore
 Disallow: CNAME
 Disallow: _config.yml
+Disallow: /page
