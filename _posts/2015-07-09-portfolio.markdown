@@ -45,6 +45,7 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
 
 | Course   | Certificate Authority | Certificate |
 |:----------|:-------------|:------|
+| European Voluntary Service (Youthpass certificate) | European Union (Erasmus+ program) | [Link](/assets/youthpass-certificate.pdf)<sup>1</sup> |
 | Malicious Software and its Underground Economy | Coursera (University of London) | [Link](/assets/certificate1.pdf) |
 | Introduction to Cybersecurity | Cisco Networking Academy | [Link](/assets/certificate2.pdf) |
 | CCNA Routing and Switching: Introduction to Networks | Cisco Networking Academy | [Link](/assets/certificate3.pdf) |
@@ -53,6 +54,8 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
 | Linux Alternatives to Windows Applications | Udemy | [Link](/assets/certificate6.pdf) |
 | Pentester Certification Course | Udemy | [Link](/assets/certificate7.pdf) |
 | IPv6 Certified | Hurricane Electrics | [Link](/assets/certificate8.pdf) |
+
+<sup>1</sup> Note: No signed digital version available, so I scanned it.
 
 ## Experience
 
