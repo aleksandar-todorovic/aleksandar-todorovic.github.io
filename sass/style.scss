@@ -1,7 +1,7 @@
 @import 'vars';
 @import 'mixins';
 @import 'font-awesome.min.css';
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic');
 
 /*
 	Strata by HTML5 UP
@@ -38,7 +38,7 @@ $size-header-pad:		4em;
 		border-bottom: dotted 1px;
 		color: $color-accent-bg;
 		text-decoration: none;
-		
+
 		&:hover {
 			border-bottom-color: transparent;
 			color: $color-accent-bg !important;
@@ -50,7 +50,7 @@ $size-header-pad:		4em;
 		color: $color-fg-bold;
 		font-weight: $font-weight-bold;
 	}
-	
+
 	em, i {
 		font-style: italic;
 	}
@@ -64,7 +64,7 @@ $size-header-pad:		4em;
 		font-weight: $font-weight-bold;
 		line-height: 1em;
 		margin: 0 0 ($size-element-margin * 0.5) 0;
-		
+
 		a {
 			color: inherit;
 			text-decoration: none;
@@ -90,12 +90,12 @@ $size-header-pad:		4em;
 		font-size: 1.1em;
 		line-height: 1.5em;
 	}
-	
+
 	h5 {
 		font-size: 0.9em;
 		line-height: 1.5em;
 	}
-	
+
 	h6 {
 		font-size: 0.7em;
 		line-height: 1.5em;
@@ -106,32 +106,32 @@ $size-header-pad:		4em;
 		position: relative;
 		top: 0.5em;
 	}
-	
+
 	sup {
 		font-size: 0.8em;
 		position: relative;
 		top: -0.5em;
 	}
-	
+
 	hr {
 		border: 0;
 		border-bottom: solid 2px $color-border;
 
 		// This is the *only* instance where we need to rely on margin collapse.
 		margin: $size-element-margin 0;
-		
+
 		&.major {
 			margin: ($size-element-margin * 1.5) 0;
 		}
 	}
-	
+
 	blockquote {
 		border-left: solid 6px $color-border;
 		font-style: italic;
 		margin: 0 0 $size-element-margin 0;
 		padding: 0.5em 0 0.5em 1.5em;
 	}
-	
+
 	code {
 		background: $color-border-bg;
 		border-radius: $size-border-radius;
@@ -159,11 +159,11 @@ $size-header-pad:		4em;
 	.align-left {
 		text-align: left;
 	}
-	
+
 	.align-center {
 		text-align: center;
 	}
-	
+
 	.align-right {
 		text-align: right;
 	}
@@ -182,19 +182,19 @@ $size-header-pad:		4em;
 			position: relative;
 			margin: 0 0 ($size-element-margin * 0.75) 0;
 		}
-		
+
 		h2 + p {
 			font-size: 1.25em;
 			margin-top: ($size-element-margin * -0.5);
 			line-height: 1.5em;
 		}
-		
+
 		h3 + p {
 			font-size: 1.1em;
 			margin-top: ($size-element-margin * -0.4);
 			line-height: 1.5em;
 		}
-		
+
 		h4 + p,
 		h5 + p,
 		h6 + p {
@@ -202,14 +202,14 @@ $size-header-pad:		4em;
 			margin-top: ($size-element-margin * -0.3);
 			line-height: 1.5em;
 		}
-		
+
 		&.major {
 			h2 {
 				font-size: 2em;
 			}
 		}
 	}
-	
+
 /* Form */
 
 	form {
@@ -243,7 +243,7 @@ $size-header-pad:		4em;
 		&:invalid {
 			box-shadow: none;
 		}
-		
+
 		&:focus {
 			border-color: $color-accent-bg;
 		}
@@ -253,7 +253,7 @@ $size-header-pad:		4em;
 		@include icon;
 		display: block;
 		position: relative;
-		
+
 		&:before {
 			color: $color-border2;
 			content: '\f078';
@@ -279,7 +279,7 @@ $size-header-pad:		4em;
 	select {
 		height: $size-element-height;
 	}
-	
+
 	textarea {
 		padding: 0.75em;
 	}
@@ -293,7 +293,7 @@ $size-header-pad:		4em;
 		opacity: 0;
 		width: 1em;
 		z-index: -1;
-		
+
 		& + label {
 			@include icon;
 			color: $color-fg;
@@ -304,7 +304,7 @@ $size-header-pad:		4em;
 			padding-left: ($size-element-height * 0.6) + 0.75em;
 			padding-right: 0.75em;
 			position: relative;
-			
+
 			&:before {
 				background: $color-border-bg;
 				border-radius: $size-border-radius;
@@ -320,7 +320,7 @@ $size-header-pad:		4em;
 				width: ($size-element-height * 0.6);
 			}
 		}
-		
+
 		&:checked + label {
 			&:before {
 				background: $color-fg-bold;
@@ -332,7 +332,7 @@ $size-header-pad:		4em;
 
 		&:focus + label {
 			&:before {
-				border-color: $color-accent-bg;				
+				border-color: $color-accent-bg;
 			}
 		}
 	}
@@ -368,12 +368,12 @@ $size-header-pad:		4em;
 		opacity: 1.0;
 	}
 
-	:-ms-input-placeholder {  
+	:-ms-input-placeholder {
 		color: $color-fg-light !important;
 		opacity: 1.0;
 	}
 
-	.formerize-placeholder {  
+	.formerize-placeholder {
 		color: $color-fg-light !important;
 		opacity: 1.0;
 	}
@@ -385,7 +385,7 @@ $size-header-pad:		4em;
 		border: solid 2px $color-border;
 		margin-bottom: $size-element-margin;
 		padding: 1.5em;
-		
+
 		> :last-child,
 		> :last-child > :last-child,
 		> :last-child > :last-child > :last-child {
@@ -398,7 +398,7 @@ $size-header-pad:		4em;
 			padding: 0;
 		}
 	}
-	
+
 /* Icon */
 
 	.icon {
@@ -418,7 +418,7 @@ $size-header-pad:		4em;
 		border: 0;
 		display: inline-block;
 		position: relative;
-		
+
 		&:before {
 			@include vendor-property('transition', 'opacity #{$duration-transition} ease-in-out');
 			background: url('images/overlay.png');
@@ -432,10 +432,10 @@ $size-header-pad:		4em;
 			top: 0;
 			width: 100%;
 		}
-		
+
 		&.thumb {
 			text-align: center;
-			
+
 			&:after {
 				@include vendor-property('transition', 'opacity #{$duration-transition} ease-in-out');
 				border-radius: $size-border-radius;
@@ -461,25 +461,25 @@ $size-header-pad:		4em;
 				&:after {
 					opacity: 1.0;
 				}
-				
+
 				&:before {
 					background: url('images/overlay.png'), url('images/overlay.png');
 					opacity: 1.0;
 				}
 			}
 		}
-		
+
 		img {
 			border-radius: $size-border-radius;
 			display: block;
 		}
-		
+
 		&.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
-		
+
 		&.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
@@ -489,29 +489,29 @@ $size-header-pad:		4em;
 		&.left,
 		&.right {
 			max-width: 40%;
-			
+
 			img {
 				width: 100%;
 			}
 		}
-		
+
 		&.fit {
 			display: block;
 			margin: 0 0 $size-element-margin 0;
 			width: 100%;
-			
+
 			img {
 				width: 100%;
 			}
 		}
-		
+
 		&.avatar {
 			border-radius: 100%;
-			
+
 			&:before {
 				display: none;
 			}
-			
+
 			img {
 				border-radius: 100%;
 				width: 100%;
@@ -539,35 +539,35 @@ $size-header-pad:		4em;
 		li {
 			padding-left: 0.5em;
 		}
-		
+
 		&.alt {
 			list-style: none;
 			padding-left: 0;
-			
+
 			li {
 				border-top: solid 2px $color-border;
 				padding: 0.5em 0;
-				
+
 				&:first-child {
 					border-top: 0;
 					padding-top: 0;
 				}
 			}
 		}
-		
+
 		&.icons {
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-			
+
 			li {
 				display: inline-block;
 				padding: 0 1em 0 0;
-				
+
 				&:last-child {
 					padding-right: 0;
 				}
-				
+
 				.icon {
 					&:before {
 						font-size: 1.5em;
@@ -575,33 +575,33 @@ $size-header-pad:		4em;
 				}
 			}
 		}
-		
+
 		&.actions {
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-			
+
 			li {
 				display: inline-block;
 				padding: 0 ($size-element-margin * 0.5) 0 0;
 				vertical-align: middle;
-			
+
 				&:last-child {
 					padding-right: 0;
 				}
 			}
-			
+
 			&.small {
 				li {
 					padding: 0 ($size-element-margin * 0.25) 0 0;
 				}
 			}
-			
+
 			&.vertical {
 				li {
 					display: block;
 					padding: ($size-element-margin * 0.5) 0 0 0;
-					
+
 					&:first-child {
 						padding-top: 0;
 					}
@@ -610,7 +610,7 @@ $size-header-pad:		4em;
 						margin-bottom: 0;
 					}
 				}
-				
+
 				&.small {
 					li {
 						padding: ($size-element-margin * 0.25) 0 0 0;
@@ -621,23 +621,23 @@ $size-header-pad:		4em;
 					}
 				}
 			}
-			
+
 			&.fit {
 				display: table;
 				margin-left: ($size-element-margin * -0.5);
 				padding: 0;
 				table-layout: fixed;
 				width: calc(100% + #{($size-element-margin * 0.5)});
-				
+
 				li {
 					display: table-cell;
 					padding: 0 0 0 ($size-element-margin * 0.5);
-					
+
 					> * {
 						margin-bottom: 0;
 					}
 				}
-				
+
 				&.small {
 					margin-left: ($size-element-margin * -0.25);
 					width: calc(100% + #{($size-element-margin * 0.25)});
@@ -648,25 +648,25 @@ $size-header-pad:		4em;
 				}
 			}
 		}
-		
+
 		&.labeled-icons {
 			list-style: none;
 			padding: 0;
-			
+
 			li {
 				line-height: 1.75em;
 				margin: 1.5em 0 0 0;
 				padding-left: 2.25em;
 				position: relative;
-				
+
 				&:first-child {
 					margin-top: 0;
 				}
-				
+
 				a {
 					color: inherit;
 				}
-				
+
 				h3 {
 					color: $color-fg-light;
 					left: 0;
@@ -678,7 +678,7 @@ $size-header-pad:		4em;
 			}
 		}
 	}
-	
+
 	dl {
 		margin: 0 0 $size-element-margin 0;
 	}
@@ -693,23 +693,23 @@ $size-header-pad:		4em;
 	table {
 		margin: 0 0 $size-element-margin 0;
 		width: 100%;
-    		
+
 		tbody {
 			tr {
 				border: solid 1px $color-border;
 				border-left: 0;
 				border-right: 0;
-				
+
 				&:nth-child(2n + 1) {
 					background-color: $color-border-bg;
 				}
 			}
 		}
-		
+
 		td {
 			padding: 0.75em 0.75em;
 		}
-		
+
 		th {
 			color: $color-fg-bold;
 			font-size: 0.9em;
@@ -717,30 +717,30 @@ $size-header-pad:		4em;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
-	
+
 		thead {
 			border-bottom: solid 2px $color-border;
 		}
-		
+
 		tfoot {
 			border-top: solid 2px $color-border;
 		}
 
 		&.alt {
 			border-collapse: separate;
-			
+
 			tbody {
 				tr {
 					td {
 						border: solid 2px $color-border;
 						border-left-width: 0;
 						border-top-width: 0;
-						
+
 						&:first-child {
 							border-left-width: 2px;
 						}
 					}
-					
+
 					&:first-child {
 						td {
 							border-top-width: 2px;
@@ -748,17 +748,17 @@ $size-header-pad:		4em;
 					}
 				}
 			}
-			
+
 			thead {
 				border-bottom: 0;
 			}
-			
+
 			tfoot {
 				border-top: 0;
 			}
 		}
 	}
-		
+
 /* Button */
 
 	input[type="submit"],
@@ -787,7 +787,7 @@ $size-header-pad:		4em;
 			border-color: $color-accent-bg;
 			color: $color-accent-bg !important;
 		}
-		
+
 		&:active {
 			background-color: transparentize($color-accent-bg, 0.9);
 			border-color: $color-accent-bg;
@@ -796,7 +796,7 @@ $size-header-pad:		4em;
 
 		&.icon {
 			padding-left: 1.35em;
-			
+
 			&:before {
 				margin-right: 0.5em;
 			}
@@ -808,11 +808,11 @@ $size-header-pad:		4em;
 			min-width: 0;
 			width: 100%;
 		}
-		
+
 		&.small {
 			font-size: 0.8em;
 		}
-		
+
 		&.big {
 			font-size: 1.35em;
 		}
@@ -821,18 +821,18 @@ $size-header-pad:		4em;
 			background-color: $color-accent-bg;
 			border-color: $color-accent-bg;
 			color: $color-accent-fg-bold !important;
-			
+
 			&:hover {
 				background-color: lighten($color-accent-bg, 5);
 				border-color: lighten($color-accent-bg, 5);
 			}
-			
+
 			&:active {
 				background-color: darken($color-accent-bg, 5);
 				border-color: darken($color-accent-bg, 5);
 			}
 		}
-		
+
 		&.disabled,
 		&:disabled {
 			background-color: $color-border2-bg !important;
@@ -841,28 +841,28 @@ $size-header-pad:		4em;
 			cursor: default;
 		}
 	}
-	
+
 /* Work Item */
 
 	.work-item {
 		margin: 0 0 $size-element-margin 0;
-		
+
 		.image {
 			margin: 0 0 ($size-element-margin * 0.75) 0;
 		}
-		
+
 		h3 {
 			font-size: 1em;
 			margin: 0 0 ($size-element-margin * 0.25) 0;
 		}
-		
+
 		p {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
 		}
 	}
-	
+
 /* Header */
 
 	#header {
@@ -880,22 +880,22 @@ $size-header-pad:		4em;
 		text-align: right;
 		top: 0;
 		width: $size-header-width;
-	
+
 		strong, b {
 			color: $color-accent2-fg-bold;
 		}
-	
+
 		h2, h3, h4, h5, h6 {
 			color: $color-accent2-fg-bold;
 		}
-		
+
 		h1 {
 			color: $color-accent2-fg;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}
-		
+
 		.image.avatar {
 			margin: 0 0 ($size-element-margin * 0.5) 0;
 			width: 6.25em;
@@ -911,35 +911,35 @@ $size-header-pad:		4em;
 		position: fixed;
 		text-align: right;
 		width: $size-header-width;
-		
+
 		.icons {
 			margin: ($size-element-margin * 0.5) 0 0 0;
-			
+
 			a {
 				color: $color-accent2-fg-light;
 			}
 		}
-		
+
 		.copyright {
 			color: $color-accent2-fg-light;
 			font-size: 0.8em;
 			list-style: none;
 			margin: ($size-element-margin * 0.5) 0 0 0;
 			padding: 0;
-			
+
 			li {
 				border-left: solid 1px $color-accent2-border;
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 0.75em;
 				padding-left: 0.75em;
-				
+
 				&:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
-				
+
 				a {
 					color: inherit;
 				}
@@ -954,12 +954,12 @@ $size-header-pad:		4em;
 		max-width: 50em + $size-header-pad;
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
-		
+
 		> section {
 			border-top: solid 2px $color-border;
 			margin: $size-header-pad 0 0 0;
 			padding: $size-header-pad 0 0 0;
-			
+
 			&:first-child {
 				border-top: 0;
 				margin-top: 0;
@@ -967,7 +967,7 @@ $size-header-pad:		4em;
 			}
 		}
 	}
-	
+
 /* Poptrox */
 
 	@include vendor-keyframes('spin') {
@@ -983,7 +983,7 @@ $size-header-pad:		4em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0,0,0,0.15);
 		overflow: hidden;
 		padding-bottom: 3em;
-	
+
 		.loader {
 			@include icon;
 			@include vendor-property('animation', 'spin 1s linear infinite');
@@ -995,12 +995,12 @@ $size-header-pad:		4em;
 			position: absolute;
 			top: 50%;
 			width: 1em;
-			
+
 			&:before {
 				content: '\f1ce';
 			}
 		}
-	
+
 		.caption {
 			background: #fff;
 			bottom: 0;
@@ -1014,7 +1014,7 @@ $size-header-pad:		4em;
 			width: 100%;
 			z-index: 1;
 		}
-		
+
 		.nav-next,
 		.nav-previous {
 			@include icon;
@@ -1040,7 +1040,7 @@ $size-header-pad:		4em;
 				width: 1.5em;
 			}
 		}
-			
+
 		.nav-next {
 			right: 0;
 
@@ -1049,7 +1049,7 @@ $size-header-pad:		4em;
 				right: 0;
 			}
 		}
-		
+
 		.nav-previous {
 			left: 0;
 
@@ -1058,7 +1058,7 @@ $size-header-pad:		4em;
 				left: 0;
 			}
 		}
-			
+
 		.closer {
 			@include icon;
 			@include vendor-property('transition', 'opacity #{$duration-transition} ease-in-out');
@@ -1073,7 +1073,7 @@ $size-header-pad:		4em;
 			top: 0;
 			width: 4em;
 			z-index: 2;
-		
+
 			&:before {
 				@include vendor-property('box-sizing', 'content-box');
 				border-radius: 100%;
@@ -1120,7 +1120,7 @@ $size-header-pad:		4em;
 				&:before {
 					opacity: 0.5 !important;
 				}
-				
+
 				&:after {
 					display: none !important;
 				}
