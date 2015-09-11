@@ -99,7 +99,7 @@ Trenutno bez radnog iskustva. Tražim pripravničku priliku ili juniorsku pozici
 
 ### Iskustvo u pisanju
 
-* Vodim personalni [blog](https://r3bl.github.io) skoro godinu dana. Imam skromnog uspjeha u vođenju bloga sa oko 150 posjeta na dnevnoj bazi.
+* Vodim personalni [blog](https://blog.r3bl.me) skoro godinu dana. Imam skromnog uspjeha u vođenju bloga sa oko 150 posjeta na dnevnoj bazi.
 * Redovno pišem članke za [Opensource.com](http://opensource.com). Moj prvi članak ([A beginner's guide to GitHub](http://opensource.com/life/15/2/beginners-guide-github)) napisan u februaru 2015. godine je izabran za [najbolji članak sedmice](http://opensource.com/life/15/2/top-5-articles-week-february-20), te je postao [najbolji članak objavljen u tom mjesecu](http://opensource.com/community-report-march-2015).
 * Sarađujem sa blogom [Kompjuteraš](http://kompjuteras.com) na kojem pišem članke u kojima promovišem open source softver.
 * Sarađivao sam sa časopisom [LiBRE!](https://libre.lugons.org) kao dio njihove redakcije. Tokom moje jednogodišnje saradnje sa ovim projektom objavljeno je osam mojih članaka u šest brojeva časopisa.
