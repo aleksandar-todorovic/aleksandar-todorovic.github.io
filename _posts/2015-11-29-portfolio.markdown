@@ -3,7 +3,7 @@ layout: post
 title: Portfolio (English version)
 categories: en
 ---
-For the Bosnian version of the portfolio, [click here]({{ site.url }}/bs/portfolio-bs).
+For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portofolio/).
 
 <img src="{{ site.url }}/images/portfolio.jpg" class="fit image">
 
@@ -74,7 +74,7 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
   </tr>
   <tr>
     <td colspan="3">
-        Assisting in server maintenance. Working on developing the 2.0 version of the <a href="https://investigativedashboard.org">Investigative Dashboard</a>. Web scraping. Helping journalists communicate securely with their sources.
+        <strong>Responsiblities:</strong> Assisting in server maintenance. Working on developing the 2.0 version of the <a href="https://investigativedashboard.org">Investigative Dashboard</a>. Web scraping. Helping journalists communicate securely with their sources.
     </td>
   </tr>
  </table>
@@ -163,6 +163,6 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
 ## Contact
 
 [aleksandar.todorovic@opensource.com](mailto:aleksandar.todorovic@opensource.com) for writing proposals.<br/>
-[aleksandar.todorovic@mail.ru](mailto:aleksandar.todorovic@mail.ru) for everything else.
+[aleksandar.todorovic@mail.ru](mailto:aleksandar.todorovic@mail.ru) for everything else. If you're a GPG/PGP user, you can find my public key [here](/contact).
 
 Also, feel free to connect with me on social media. Links to my profiles are in the sidebar.
