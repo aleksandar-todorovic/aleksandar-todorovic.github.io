@@ -59,10 +59,30 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
 
 ## Experience
 
-### Working Experience
+### Work Experience
 
-No working experience at the moment. Looking for internship opportunities or entry-level jobs.
-<br/>Willing to relocate or work remotely.
+| Company | Position | Time |
+|:----------|:--------------|:-------|
+| [Organized Crime and Corruption Reporting Project](https://occrp.org) | Technical Intern | October 2015 - Present |
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Position</th>
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td><a href="https://occrp.org">Organized Crime and Corruption Reporting Project</a></td>
+    <td>Techical assistant (Internship)</td>
+    <td>October 2015 - Present</td>
+  </tr>
+  <tr>
+    <td colspan="3">
+        Assisting in server maintenance. Working on developing the 2.0 version of the <a href="https://investigativedashboard.org">Investigative Dashboard</a>. Web scraping. Helping journalists communicate securely with their sources.
+    </td>
+  </tr>
+ </table>
+
 
 ### My Projects
 
