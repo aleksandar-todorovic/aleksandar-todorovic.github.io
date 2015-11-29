@@ -61,10 +61,6 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
 
 ### Work Experience
 
-| Company | Position | Time |
-|:----------|:--------------|:-------|
-| [Organized Crime and Corruption Reporting Project](https://occrp.org) | Technical Intern | October 2015 - Present |
-
 <table>
   <tr>
     <th>Company</th>
