@@ -11,7 +11,7 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 
 Student from Bosnia & Herzegovina studying IT engineering at eMPIRICA. Passionate about artificial intelligence, open source software and cybersecurity. Experienced in working with Linux-based and Windows operating systems. Capable of programming in several programming languages. Decent (mostly theoretical) knowledge of cybersecurity.
 
-For a short overview of the portfolio you can [download my resume]({{ site.url }}/assets/resume-en.pdf).
+For a short overview of the portfolio you can [download my resume]({{ site.url }}/assets/resume-en.pdf). You can also download [my certificate pack]({{ site.url }}/assets/certificate-pack.rar)
 
 ## Education
 
@@ -55,7 +55,9 @@ For a short overview of the portfolio you can [download my resume]({{ site.url }
 | Pentester Certification Course | Udemy | [Link](/assets/certificate7.pdf) |
 | IPv6 Certified | Hurricane Electrics | [Link](/assets/certificate8.pdf) |
 
-<sup>1</sup> Note: No signed digital version available, so I scanned it.
+<sup>1</sup> Warning: No signed digital version available, so I scanned it.
+
+**Note:** You can also download all of my certificates at once by downloading [my certificate pack]({{ site.url }}/assets/certificate-pack.rar).
 
 ## Experience
 
