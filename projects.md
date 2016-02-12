@@ -8,7 +8,7 @@ title: "Some of the cool things I've been working on"
 * [awesome lists](#awesome-lists)
 * [Battery API](#battery-api)
 * [dotfiles](#dotfiles)
-* [Jazina: OCCRP.org's Tech Blog](#jazbina-occrp.orgs-tech-blog)
+* [Jazina: OCCRP.org's Tech Blog](#jazbina-occrporgs-tech-blog)
 
 ## awesome lists
 
