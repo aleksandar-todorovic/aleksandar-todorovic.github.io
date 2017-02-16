@@ -4,7 +4,7 @@ title: Portfolio (English version)
 categories: en
 ---
 
-**Last updated on:** _November 17th, 2016_
+**Last updated on:** _February 16th, 2017_
 
 For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portofolio/).
 
@@ -18,11 +18,11 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 
 ## Formal Education
 
-**Bachelor of IT Engineering** @ [eMPIRICA, Brčko (Bosnia & Herzegovina)](http://empirica.edu.ba/) (2013-20XX)<br/>
-<u>Accomplishments</u>The work I programmed as a part of the curriculum in my first year is being advertised as the best one in my year by the college itself (as stated <a href="http://empirica.ba/index.php/aktuelne-vijesti/464-nasi-studenti-sticu-prakticna-ict-znanja-i-vjestine-vec-od-prve-godine-studija">here</a>). This project is released under the MIT license <a href="https://github.com/aleksandar-todorovic/Implementacija-sigurnosnih-algoritama">here</a>.
+**Bachelor of IT Engineering** @ [eMPIRICA, Brčko (Bosnia & Herzegovina)](http://empirica.edu.ba/) (2013-20XX) [dropped out]<br/>
+<u>Accomplishments:</u> The work I programmed as a part of the curriculum in my first year is being advertised as the best one in my year by the college itself (as stated <a href="http://empirica.ba/index.php/aktuelne-vijesti/464-nasi-studenti-sticu-prakticna-ict-znanja-i-vjestine-vec-od-prve-godine-studija">here</a>). This project is released under the MIT license <a href="https://github.com/aleksandar-todorovic/Implementacija-sigurnosnih-algoritama">here</a>.
 
 **Computer Technician** @ [Technical High School, Brčko (Bosnia & Herzegovina)](http://tehnickaskolabrcko.com/) (2009-2013)<br/>
-<u>Accomplishments:</u> My graduation thesis is now actively used in the school's administration to reduce the paperwork.
+<u>Accomplishments:</u> My graduation thesis is now actively used in the school's administration to reduce the amount of paperwork.
 
 ## Additional Education
 
@@ -56,7 +56,7 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 
 <sup>1</sup> Warning: No signed digital version available, so I scanned it.
 
-<sup>2<sup> Didn't purchase a certificate because it was either not worth it or I couldn't afford it at the time.
+<sup>2</sup> Didn't purchase a certificate because it was either not worth it or I couldn't afford it at the time.
 
 **Note:** You can also download all of my certificates at once by downloading [my certificate pack]({{ site.url }}/assets/certificate-pack.rar).
 
@@ -100,7 +100,7 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 ### Writing Experience
 
 * Running a personal [blog](http://blog.r3bl.me) for more than a year now. I have a modest success in running it, with ~150 daily visitors.
-* Providing content for [Opensource.com](http://opensource.com) on a regular basis. My first article ([A beginner's guide to GitHub](http://opensource.com/life/15/2/beginners-guide-github)), written in February 2015, has been selected as [the top article of the week](http://opensource.com/life/15/2/top-5-articles-week-february-20), became the [top article posted in that month](http://opensource.com/community-report-march-2015), and later on won the [Reader's Choice Award](https://opensource.com/community/16/2/winners-2016-community-awards) as one of the best articles of the year.
+* Provided content for [Opensource.com](http://opensource.com) on a regular basis. My first article ([A beginner's guide to GitHub](http://opensource.com/life/15/2/beginners-guide-github)), written in February 2015, has been selected as [the top article of the week](http://opensource.com/life/15/2/top-5-articles-week-february-20), became the [top article posted in that month](http://opensource.com/community-report-march-2015), and later on won the [Reader's Choice Award](https://opensource.com/community/16/2/winners-2016-community-awards) as one of the best articles of the year.
 * Collaborating with the [Kompjuteraš](http://kompjuteras.com) blog, writing content in Bosnian language (mostly) to promote open source software.
 * I used to collaborate with the regional free software magazine called [LiBRE!](https://libre.lugons.org) as a member of their editorial team. I wrote eight articles for the magazine over a year-long span.
 
@@ -117,9 +117,11 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 
 * Intermediate proficiency in **Python**.
 * Intermediate proficiency in **bash** scripting.
-* Intermediate proficiency in using the **.NET framework** (using **Visual Basic**).
-* Basic level of proficiency in **C/C++**.
 * Proficiency in **HTML5/CSS3**.
+* Basic proficiency in using the **.NET framework** (using **Visual Basic**).
+* Basic proficiency in **C/C++**.
+* Basic proficiency in **Ruby**.
+* Basic proficiency in using **Django** and **Ruby on Rails** server side web application frameworks.
 * Experience with working and developing websites using static site generators.
 
 ### (Human) Languages
@@ -133,13 +135,12 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 * Highly proficient in working with **Ubuntu-based** operating systems.
 * Familiar with the basics of **Linux customization**. Experience in customizing **GNOME-based** desktop environments.
 * Plenty of experience in working with popular applications available in Linux-based operating systems (such as **GIMP** and **LibreOffice**).
-* Some experience in Linux server maintenance and accompanying technologies (such as **Docker**, **Apache2** and **nginx**).
+* Some experience in Linux server maintenance and accompanying technologies (like **Docker**, **apache2** and **nginx**).
 
 ### Other
 
-* Highly proficient in **Windows technologies**, such as **Visual Studio**, **Visual Studio Code**, and **Microsoft Office**.
-* Basic experience with databases. Worked with tools like **Microsoft SQL Server**, **MySQL**, "PostgreSQL" and "SQLite".
-* Basic experience in **virtualization** with **VirtualBox**.
+* Semi-proficient in **Windows technologies**, such as **Visual Studio**, **Visual Studio Code**, and **Microsoft Office**.
+* Basic experience with databases. Worked with tools like **Microsoft SQL Server**, **MySQL**, **PostgreSQL** and **SQLite**.
 * Highly proficient in working with **Git** distributed revision control.
 * Active **GitHub** user with more than 400 contributions per year.
 

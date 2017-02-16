@@ -28,6 +28,8 @@ permalink: /en/articles/
       <h2>Articles in Serbian/Bosnian/Croatian</h2>
 
       <ul>
+          <li><a href="https://kompjuteras.com/internet-slot-masine-i-dobro-potroseno-vrijeme/">Internet, slot mašine i dobro potrošeno vrijeme</a>, published on <a href="https://kompjuteras.com/">Kompjuteraš</a> (May 30th, 2016)</li>
+          <li><a href="https://kompjuteras.com/kratka-setnja-kroz-i3-menadzer-prozora/">Kratka šetnja kroz i3 menadžer prozora</a>, published on <a href="https://kompjuteras.com/">Kompjuteraš</a> (April 29th, 2016)</li>
           <li><a href="https://kompjuteras.com/zasto-morate-enkriptovati-vase-uredaje-slucaj-izgubljenog-usb/">Zašto morate enkriptovati vaše uređaje: slučaj izgubljenog USB-a</a>, published on <a href="https://kompjuteras.com/">Kompjuteraš</a> (February 3rd, 2016)</li>
           <li><a href="https://kompjuteras.com/umjetna-inteligencija/">Umjetna inteligencija (1. dio): Šta je i kad će?</a>, published on <a href="https://kompjuteras.com/">Kompjuteraš</a> (January 6th, 2016)</li>
           <li><a href="https://kompjuteras.com/kako-resetovati-windows-sifru-koristeci-ubuntu-chntpw/">Kako resetovati Windows šifru koristeći Ubuntu (i chntpw)</a>, published on <a href="https://kompjuteras.com/">Kompjuteraš</a> (December 21st, 2015)</li>
