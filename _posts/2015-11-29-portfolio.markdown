@@ -99,7 +99,7 @@ For the Bosnian version of the portfolio, [click here](https://bs.r3bl.me/portof
 
 ### Writing Experience
 
-* Running a personal [blog](http://blog.r3bl.me) for more than a year now. I have a modest success in running it, with ~150 daily visitors.
+* Running a personal [blog](https://blog.r3bl.me) for more than a year now. I have a modest success in running it, with ~150 daily visitors.
 * Provided content for [Opensource.com](http://opensource.com) on a regular basis. My first article ([A beginner's guide to GitHub](http://opensource.com/life/15/2/beginners-guide-github)), written in February 2015, has been selected as [the top article of the week](http://opensource.com/life/15/2/top-5-articles-week-february-20), became the [top article posted in that month](http://opensource.com/community-report-march-2015), and later on won the [Reader's Choice Award](https://opensource.com/community/16/2/winners-2016-community-awards) as one of the best articles of the year.
 * Collaborating with the [Kompjuteraš](http://kompjuteras.com) blog, writing content in Bosnian language (mostly) to promote open source software.
 * I used to collaborate with the regional free software magazine called [LiBRE!](https://libre.lugons.org) as a member of their editorial team. I wrote eight articles for the magazine over a year-long span.
