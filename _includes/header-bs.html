@@ -1,0 +1,61 @@
+<div class="entry-header">
+  <div class="header-menu header-menu-top">
+    <ul>
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="{{site.url}}/">
+          {% if site.logo %}
+            <img class="logo" src="{{site.url}}/{{ site.logo }}" alt="{{ site.title }}">
+          {% endif %}
+          <h2 class="title"> {{ site.title }}</h2>
+        </a>
+      </li>
+      {% for menu in site.menu-bs reversed %}
+        {% assign class = nil %}
+        {% if ((page.url contains menu.url and menu.url != '/') or (page.url == '/index.html' and menu.url == '/')) %}
+          {% assign class = 'active' %}
+        {% endif %}
+
+        {% if menu.type == 'categories' %}
+          <li class="header-item {{class}}"><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a>
+            <ul class="header-submenu">
+              {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+                {% capture this_word %}{{ cats_list[item] | strip_newlines }}{% endcapture %}
+                  <li class="sub-item"><a href="/categories/#{{this_word}}">{{this_word}}</a></li>
+              {% endunless %}{% endfor %}
+            </ul>
+          </li>
+        {% elsif menu.submenu %}
+          <li class="header-item {{class}}"><a href="{{menu.url}}"><h3>{{ menu.title }}</h3></a>
+            <ul class="header-submenu">
+              {% for sub in menu.submenu %}
+                <a href="{{site.url}}{{sub.url}}"><li class="sub-item">{{sub.title}}</li></a>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <a href="{{menu.url}}"><li class="header-item {{class}}"><h3>{{ menu.title }}</h3></li></a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1><span itemprop="headline">{{ page.title }}</span></h1>
+
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    {% for menu in site.menu-bs %}
+        <li><a href="{{menu.url}}"><h3>{{ menu.title }}</h3></a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{% if site.owner.twitter %}
+  <a href="https://www.facebook.com/aleksandar.todorovic.r3bl/" class="btn button-twitter button-facebook" data-show-count="false" data-size="large"><i class="fa fa-facebook"></i> <span>&nbspPrati me na Facebook-u</span></a>
+{% endif %}

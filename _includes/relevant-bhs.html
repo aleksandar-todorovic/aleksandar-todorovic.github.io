@@ -1,0 +1,66 @@
+<div class="read-more">
+  <div class="read-more-header">
+    <hr />
+    <p class="btn">Random sajt čiji rad podržavam</p>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content">
+      <script type="text/javascript">
+      var relevant_bhs = ["balkan-io.png", "itgirls.png", "facebook-page.png", "kompjuteras.png", "krik.png", "kriterion.png", "libre.png", "linux-za-sve.png", "molimao.png", "mreza-mira.png", "muk-mag.png", "one-world-platform.png", "tutorijalend.png", "share-foundation.png"]
+
+      function getRandomImageBHS(imgAr, path) {
+        var num = Math.floor( Math.random() * imgAr.length );
+        var img = imgAr[ num ];
+        var url;
+        switch (img)
+        {
+            case "balkan-io.png":
+                url = "https://forum.balkan.io/";
+                break;
+            case "itgirls.png":
+                url = "http://itgirls.ba/";
+                break;
+            case "facebook-page.png":
+                url = "https://www.facebook.com/aleksandar.todorovic.r3bl/";
+                break;
+            case "kompjuteras.png":
+                url = "http://kompjuteras.com/";
+                break;
+            case "krik.png":
+                url = "https://www.krik.rs/";
+                break;
+            case "kriterion.png":
+                url = "http://kriterion.ba/";
+                break;
+            case "libre.png":
+                url = "https://libre.lugons.org/";
+                break;
+            case "linux-za-sve.png":
+                url = "http://www.linuxzasve.com/";
+                break;
+            case "molimao.png":
+                url = "http://molimaoizm.com/";
+                break;
+            case "mreza-mira.png":
+                url = "http://www.mreza-mira.net/";
+                break;
+            case "muk-mag.png":
+                url = "http://mukmag.com/";
+                break;
+            case "one-world-platform.png":
+                url = "http://oneworldplatform.net/";
+                break;
+            case "tutorijalend.png":
+                url = "http://tutorijalend.com/";
+                break;
+            case "share-foundation.png":
+                url = "http://www.shareconference.net/sh";
+                break;
+          }
+          var imgStr = '<a href="' + url + '"><img src="' + path + img + '"</a>';
+          document.write(imgStr); document.close();
+      }
+      </script>
+      <script type="text/javascript">getRandomImageBHS(relevant_bhs, '../../images/relevant-bhs/')</script>
+      <div style="float: center; margin-top:20px; font-size: 1rem;"><a href="../../relevantan-sadrzaj">Koji je ovo đavo?</a></div>
+  </div>
+</div>

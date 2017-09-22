@@ -10,19 +10,19 @@
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
 
 {% include browser-upgrade.html %}
-{% include header.html %}
+{% include header-bs.html %}
 
 <div id="main" role="main">
   <article class="hentry">
     <div class="entry-content" itemscope itemtype="http://schema.org/Article">
       {% if page.date %}
       <div class="entry-meta" style="margin: 10px 0px 0px 0px; text-align: left;">
-                <span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span><span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>
+        <span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span><span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>
         {% if site.reading_time %}
         <span class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
-          Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+          Potrebno je ~{% if readtime <= 1 %}1 minuta{% else %}{{ readtime }} min za čitanje ovog članka{% endif %}
         </span><!-- /.entry-reading-time -->
         {% endif %}
       </div><!-- /.entry-meta -->
@@ -34,15 +34,13 @@
       <footer class="entry-meta">
         {% if page.modified %}<span>Updated on <span class="entry-date date updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
         {% endif %}
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="nostyle !important"><img class="nostyle !important" alt="Creative Commons License" src="{{ site.url }}/assets/license.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}{{ post.url}}" property="cc:attributionName" rel="cc:attributionURL">Aleksandar Todorović</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="nostyle !important"><img class="nostyle !important" alt="Creative Commons License" src="{{ site.url }}/assets/license.png" /></a><br />Ovaj rad čiji je autor <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}{{ post.url}}" property="cc:attributionName" rel="cc:attributionURL">Aleksandar Todorović</a> je licenciran pod <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 internacionalnom licencom</a>.
         {% if page.share != false %}{% include social-share.html %}{% endif %}
-
-
       </footer>
     </div><!-- /.entry-content -->
-    {% include relevant.html %}
+    {% include relevant-bhs.html %}
     {% if page.comments != false %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-    {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
+    {% if site.related_posts.size > 0 %}{% include read-more-bs.html %}{% endif %}
   </article>
 </div><!-- /#main -->
 
