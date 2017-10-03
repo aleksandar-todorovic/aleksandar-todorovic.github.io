@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Portfolio
+title: "Portfolio"
 categories: en
-permalink: /en/portfolio
+permalink: /en/portfolio/
+redirect_from: /portfolio/
 ---
 ---
 <div style="text-align: center; font-size: 150%;">
