@@ -731,17 +731,20 @@ ul.social-buttons li a:active {
 		}
 		@media #{$small} {
 			font-family: 'Montserrat', 'Lato', sans-serif;
-			font-size: 40px;
+			font-size: 35px;
 		}
 	}
 	p {
     font-family: 'Montserrat', 'Lato', sans-serif;
-		font-size: 20px;
+		@media #{$medium} {
+			font-size: 20px;
+		}
 		margin-top: 10px;
 		margin-bottom: 10px;
 		@media #{$small} {
 			width: 90%;
 			padding-left: 5%;
+			font-size: 16px;
 		}
 		a {
 			color: rgba(51,51,51,0.8);
@@ -759,9 +762,11 @@ ul.social-buttons li a:active {
 	text-align: center;
 	@media #{$medium} {
 		width: 35%;
+		font-size: 25px;
 	}
 	@media #{$small} {
 		width: 90%;
+		font-size: 22px;
 	}
 	display: inline-block;
 	.btn-nav {
@@ -769,7 +774,6 @@ ul.social-buttons li a:active {
 		-moz-border-radius: 15;
 		border-radius: 15px;
 		width: 100%;
-		font-size: 25px;
 		background-color: $white;
 	  color: $black;
 	  border-color: $black;

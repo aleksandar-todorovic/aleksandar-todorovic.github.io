@@ -71,7 +71,7 @@ figure.center img{
   display: inline-block;
   margin-bottom: 20px;
   padding: 8px 20px;
-  @include font-rem(14);
+  font-size: 22px;
   background-color: $primary;
   color: $white;
   border-width: 2px !important;
