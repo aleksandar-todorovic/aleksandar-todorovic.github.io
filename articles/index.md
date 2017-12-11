@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /en/articles/
 title: Me on Other Websites
+permalink: "/en/articles/"
+layout: page
 ---
 
 ## Table of Content

@@ -1,10 +1,11 @@
 ---
+title: Portfolio
+permalink: "/en/portfolio/"
 layout: page
-title: "Portfolio"
 categories: en
-permalink: /en/portfolio/
-redirect_from: /portfolio/
+redirect_from: "/portfolio/"
 ---
+
 ---
 <div style="text-align: center; font-size: 150%;">
   <em>

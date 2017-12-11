@@ -1,52 +1,68 @@
-## Basic things
-
-title:            Aleksandar Todorović (r3bl)
-description:      Hacker. Blogger. infosec enthusiast. Free culture and open source advocate. Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
-url:              http://localhost:4000
-
-## Fixed top menu content
+---
+title: Aleksandar Todorović (r3bl)
+timezone: Europe/Sarajevo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Hacker. Blogger. infosec enthusiast. Free culture and open source advocate.
+  Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
+url: http://localhost:4000
 menu:
-  - title: 'Home'
-    url: 'https://r3bl.me'
-  - title: 'Blog'
-    url: 'https://blog.r3bl.me/'
-  - title: 'Projects'
-    url: 'https://r3bl.me/en/projects/'
-  - title: 'Portfolio'
-    url: 'https://r3bl.me/en/portfolio/'
-  - title: 'Contact'
-    url: 'https://blog.r3bl.me/en/contact/'
-
-## Info about the owner
-
+- title: Home
+  url: https://r3bl.me
+- title: Blog
+  url: https://blog.r3bl.me/
+- title: Projects
+  url: https://r3bl.me/en/projects/
+- title: Portfolio
+  url: https://r3bl.me/en/portfolio/
+- title: Contact
+  url: https://blog.r3bl.me/en/contact/
 owner:
-  name:           Aleksandar Todorović
-  site:           https://r3bl.me
-  avatar:         images/avatar.jpg
-  bio:            "Hacker. Blogger. infosec enthusiast. Free culture and open source advocate. Ford-Mozilla Open Web fellow. Previously OCCRP tech associate."
-  email:          aleksandar@r3bl.me
-
-## Social networking thingys
-
-  twitter:      r3bl_
-  facebook:     aleksandar.todorovic.r3bl
-  github:       aleksandar-todorovic
-  google_plus:  +AleksandarTodorovićr3bl
-
-# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Sarajevo
-future:      true
+  name: Aleksandar Todorović
+  site: https://r3bl.me
+  avatar: images/avatar.jpg
+  bio: Hacker. Blogger. infosec enthusiast. Free culture and open source advocate.
+    Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
+  email: aleksandar@r3bl.me
+  twitter: r3bl_
+  facebook: aleksandar.todorovic.r3bl
+  github: aleksandar-todorovic
+  google_plus: "+AleksandarTodorovićr3bl"
+future: true
 highlighter: rouge
-markdown:    kramdown
+markdown: kramdown
 plugins:
-  - jekyll-redirect-from
-  - jekyll-sitemap
+- jekyll-redirect-from
+- jekyll-sitemap
 sass:
   sass_dir: _sass
   style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+permalink: "/:categories/:title/"
+include:
+- ".htaccess"
+exclude:
+- lib
+- config.rb
+- Capfile
+- config
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
+- less
+- "*.sublime-project"
+- "*.sublime-workspace"
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules

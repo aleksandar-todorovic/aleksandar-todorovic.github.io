@@ -1,9 +1,9 @@
 ---
-layout: page
-title: "Side projects"
-categories: en
+title: Side projects
 permalink: en/projects
-redirect_from: /projects/
+layout: page
+categories: en
+redirect_from: "/projects/"
 ---
 
 Some of the cool side-projects I've been working on.
