@@ -1,24 +1,27 @@
-## Basic things
-
-title:            Aleksandar Todorović (r3bl)
-description:      Hacker. Blogger. infosec enthusiast. Free culture and open source advocate. Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
-url:              https://r3bl.me
-
-## Fixed top menu content
+---
+title: Aleksandar Todorović (r3bl)
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Hacker. Blogger. infosec enthusiast. Free culture and open source advocate.
+  Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
+url: https://r3bl.me
 menu:
-  - title: 'Home'
-    url: 'https://r3bl.me'
-  - title: 'Blog'
-    url: 'https://blog.r3bl.me/'
-  - title: 'Projects'
-    url: 'https://r3bl.me/en/projects/'
-  - title: 'Portfolio'
-    url: 'https://r3bl.me/en/portfolio/'
-  - title: 'Contact'
-    url: 'https://r3bl.me/en/contact/'
-
-## Info about the owner
-
+- title: Home
+  url: https://r3bl.me
+- title: Blog
+  url: https://blog.r3bl.me/
+- title: Projects
+  url: https://r3bl.me/en/projects/
+- title: Portfolio
+  url: https://r3bl.me/en/portfolio/
+- title: Contact
+  url: https://r3bl.me/en/contact/
 owner:
   name: Aleksandar Todorović
   site: https://r3bl.me

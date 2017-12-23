@@ -1,10 +1,9 @@
 ---
 title: Side projects
-permalink: en/projects
+permalink: "/en/projects/"
 layout: page
 categories: en
-permalink: /en/projects/
-redirect_from: /projects/
+redirect_from: "/projects/"
 ---
 
 Some of the cool side-projects I've been working on.
