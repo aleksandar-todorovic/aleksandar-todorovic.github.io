@@ -808,9 +808,9 @@ ul.social-buttons li a:active {
 	}
 	display: inline-block;
 	.btn-nav {
-		-webkit-border-radius: 15;
-		-moz-border-radius: 15;
-		border-radius: 15px;
+		-webkit-border-radius: 8;
+		-moz-border-radius: 8;
+		border-radius: 8px;
 		width: 100%;
 		@media #{$small} {
 			font-size: 22px;
@@ -824,17 +824,32 @@ ul.social-buttons li a:active {
 			font-size: 25px;
 			font-family: 'Raleway', sans-serif;
 		}
-		background-color: $white;
-	  color: $black;
+		background-color: $black;
+	  color: $white;
 	  border-color: $black;
 	  &:visited {
-	    color: $black;
-	  }
-	  &:hover {
-	    background-color: $black;
 	    color: $white;
 	  }
+	  &:hover {
+	    color: $black;
+			text-shadow: 0 0 15px #fff;
+	  }
 	}
+}
+
+.btn-writing:hover {
+	background: url("http://localhost:4000/assets/bling/writing.jpg");
+	background-size: cover;
+}
+
+.btn-programming:hover {
+	background: url("http://localhost:4000/assets/bling/programming.jpg");
+	background-size: cover;
+}
+
+.btn-music:hover {
+	background: url("http://localhost:4000/assets/bling/music.jpg");
+	background-size: cover;
 }
 
 .button-invisible {
