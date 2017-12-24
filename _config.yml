@@ -1,6 +1,6 @@
 ---
 title: Aleksandar Todorović (r3bl)
-timezone: Europe/Sarajevo
+timezone: UTC
 collections:
   posts:
     title: Posts
@@ -10,7 +10,7 @@ collections:
     output: true
 description: Hacker. Blogger. infosec enthusiast. Free culture and open source advocate.
   Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
-url: http://localhost:4000
+url: https://r3bl.me
 menu:
 - title: Home
   url: https://r3bl.me
@@ -21,7 +21,7 @@ menu:
 - title: Portfolio
   url: https://r3bl.me/en/portfolio/
 - title: Contact
-  url: https://blog.r3bl.me/en/contact/
+  url: https://r3bl.me/en/contact/
 owner:
   name: Aleksandar Todorović
   site: https://r3bl.me

@@ -1,6 +1,6 @@
 ---
 title: Side projects
-permalink: en/projects
+permalink: "/en/projects/"
 layout: page
 categories: en
 redirect_from: "/projects/"

@@ -14,7 +14,7 @@ redirect_from: "/portfolio/"
     </a>
   </em>
 </div>
----
+----
 
 <div style="float:right;">
   Last updated on: <small>October 4th, 2017</small>
