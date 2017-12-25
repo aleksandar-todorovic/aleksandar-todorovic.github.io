@@ -31,7 +31,7 @@ figure {
     }
   }
   &.half {
-    @media screen and (min-width: 970px) {
+    @media screen and (min-width: 992px) {
       img {
         width: 310px;
         float: left;
@@ -43,7 +43,7 @@ figure {
     }
   }
   &.third {
-    @media screen and (min-width: 970px) {
+    @media screen and (min-width: 992px) {
       img {
         width: 200px;
         float: left;
@@ -150,8 +150,7 @@ figure.center img{
 
 .accomplishments {
   position: relative;
-  opacity: .92;
-  @media screen and (min-width: 970px) {
+  @media screen and (min-width: 992px) {
     background-color: black;
   }
   height: 350px;
@@ -161,37 +160,34 @@ figure.center img{
 }
 
 .accomplishments-caption {
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 992px) {
+    text-align: center;
     position: relative;
     margin-bottom: 10%;
+    color: #000;
   }
-  @media screen and (min-width: 970px) {
+  @media screen and (min-width: 992px) {
+    text-align: center;
     position: absolute;
+    color: #fff;
   }
-  left: 0;
   top: 7.5%;
   width: 100%;
   text-align: center;
-}
-
-.accomplishments-caption span.border {
-  color: #FFF;
   font-family: 'Montserrat';
-  opacity: .8;
   font-size: 35px;
 }
 
 .accomplishments-row {
-  @media screen and (max-width: 750px) {
-    position: static;
+  @media screen and (max-width: 768px) {
     width: 100%;
-    margin-top: 5%;
+    position: static;
   }
-  @media screen and (min-width: 750px) and (max-width: 970px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     position: static;
     width: inherit;
   }
-  @media screen and (min-width: 970px) {
+  @media screen and (min-width: 992px) {
     position: absolute;
     width: inherit;
   }
@@ -205,7 +201,7 @@ figure.center img{
   }
   text-align: center;
   color: #000;
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 992px) {
     margin-bottom: 5%;
   }
 }
@@ -218,7 +214,7 @@ figure.center img{
   }
   text-align: center;
   color: #000;
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 992px) {
     margin-bottom: 5%;
   }
 }
@@ -229,11 +225,14 @@ figure.center img{
 }
 
 .accomplishment-title span {
-  @media screen and (max-width: 970px) {
-    color: #000;
+  @media screen and (max-width: 992px) {
+    background-color: #000;
+    color: #fff;
+    padding-left: 2px;
+    padding-right: 2px;
     opacity: 1;
   }
-  @media screen and (min-width: 970px) {
+  @media screen and (min-width: 992px) {
     color: #FFF;
     opacity: .8;
   }
@@ -246,14 +245,14 @@ figure.center img{
 }
 
 .accomplishment-desc span {
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 992px) {
     color: #000;
     opacity: 1;
   }
-  @media screen and (min-width: 970px) {
+  @media screen and (min-width: 992px) {
     color: #FFF;
     opacity: .8;
   }
     opacity: .8;
-  font-size: 12px;
+  font-size: 14px;
 }
