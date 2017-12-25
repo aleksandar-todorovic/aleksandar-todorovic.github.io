@@ -31,7 +31,7 @@ figure {
     }
   }
   &.half {
-    @media #{$large} {
+    @media screen and (min-width: 970px) {
       img {
         width: 310px;
         float: left;
@@ -43,7 +43,7 @@ figure {
     }
   }
   &.third {
-    @media #{$large} {
+    @media screen and (min-width: 970px) {
       img {
         width: 200px;
         float: left;
@@ -146,4 +146,155 @@ figure.center img{
   padding: 20px;
   border: 1px solid $comp-color;
   @include rounded(4px);
+}
+
+.accomplishments {
+  position: relative;
+  opacity: .92;
+  @media screen and (min-width: 970px) {
+    background-image: url("http://localhost:4000/assets/bling/greg-rakozy-38802.jpg");
+  }
+  @media screen and (max-width: 970px) {
+    background-image: none;
+  }
+  height: 375px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accomplishments-caption {
+  @media screen and (max-width: 970px) {
+    position: relative;
+    margin-bottom: 10%;
+  }
+  @media screen and (min-width: 970px) {
+    position: absolute;
+  }
+  left: 0;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+}
+
+.accomplishments-caption span.border {
+  background-color: #000;
+  color: #FFF;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Zilla Slab';
+  opacity: .8;
+  font-size: 35px;
+}
+
+.accomplishments-row {
+  @media screen and (max-width: 750px) {
+    position: static;
+    width: 100%;
+    margin-top: 5%;
+  }
+  @media screen and (min-width: 750px) and (max-width: 970px) {
+    position: static;
+    width: inherit;
+  }
+  @media screen and (min-width: 970px) {
+    position: absolute;
+    width: inherit;
+  }
+  top: 25%;
+}
+
+.accomplishment {
+  img {
+    height: 125px;
+    min-width: 100px;
+    opacity: .95;
+  }
+  text-align: center;
+  color: #000;
+  @media screen and (max-width: 970px) {
+    margin-bottom: 5%;
+  }
+}
+
+.accomplishment-locked {
+  img {
+    height: 125px;
+    min-width: 100px;
+    opacity: .35;
+  }
+  text-align: center;
+  color: #000;
+  @media screen and (max-width: 970px) {
+    margin-bottom: 5%;
+  }
+}
+
+.accomplishment-title {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.accomplishment-title span {
+  @media screen and (max-width: 970px) {
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 1;
+  }
+  @media screen and (min-width: 970px) {
+    background-color: #000;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: .8;
+  }
+  font-family: 'Zilla Slab';
+  font-size: 18px;
+}
+
+.accomplishment-desc {
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  padding-top: 2.5%;
+}
+
+.accomplishment-desc span {
+  @media screen and (max-width: 970px) {
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 1;
+  }
+  @media screen and (min-width: 970px) {
+    background-color: #000;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: .8;
+  }
+    opacity: .8;
+  font-size: 14px;
+}
+
+.accomplishment-date {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.accomplishment-date span {
+  @media screen and (max-width: 970px) {
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 1;
+  }
+  @media screen and (min-width: 970px) {
+    background-color: #000;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: .8;
+  }
+  font-size: 13px;
+  font-family: 'Montserrat', 'Lato', sans-serif;
 }
