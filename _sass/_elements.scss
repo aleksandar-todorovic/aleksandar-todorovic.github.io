@@ -152,6 +152,7 @@ figure.center img{
   position: relative;
   @media screen and (min-width: 992px) {
     background-color: black;
+    opacity: .9;
   }
   height: 350px;
   background-position: bottom;
@@ -259,11 +260,11 @@ figure.center img{
 .donations {
   opacity: .9;
   background-color: #000;
-  min-height: 200px;
   color: #fff;
 
   h2 {
     opacity: .9;
+    margin: 0;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     padding-top: 20px;
@@ -296,6 +297,7 @@ figure.center img{
     .btn-don {
       padding-top: 7.5px;
       padding-bottom: 7.5px;
+      margin-bottom: 55px;
       margin-left: 15%;
   		-webkit-border-radius: 8;
   		-moz-border-radius: 8;
@@ -322,8 +324,12 @@ figure.center img{
   	    color: $white;
   	  }
   	  &:hover {
-  	    color: $black;
-  			text-shadow: 0 0 15px #fff;
+  	    color: $white !important;
+        background-color: black !important;
+        border-color: white !important;
+        border-radius: 6px;
+        border-width: 2px;
+        border-style: "solid";
   	  }
   	}
   }
@@ -358,4 +364,36 @@ figure.center img{
 
 .don-total {
   float: right;
+}
+
+.hover-pie-chart {
+  display: inline-block;
+}
+
+.hover-pie-chart-amount {
+  font-size: 25px;
+  display: inline-block;
+  width: 65px;
+  text-align: right;
+}
+
+#donutchart {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.pie-chart-tooltips{
+  padding-top: 125px;
+  padding-left: 35px;
+
+  p {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 35px;
+  }
 }

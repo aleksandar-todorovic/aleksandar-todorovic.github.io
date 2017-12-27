@@ -1,0 +1,60 @@
+---
+title: How I Spend My Money
+permalink: "/en/spendings/"
+layout: homepage
+---
+
+<div class="row">
+  <script type="text/javascript" src="{{ site.base_url }}/assets/js/chart-loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Cause', 'Percentage'],
+        ['Basic living costs',  61.1],
+        ['Luxury',  20],
+        ['Education', 10.2],
+        ['Infrastructure', 5.4],
+        ['Back to the community', 3.3]
+      ]);
+
+      var options = {
+        legend: 'none',
+        pieSliceText: 'label',
+        tooltip: { text: 'percentage' },
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+      chart.draw(data, options);
+    }
+  </script>
+
+  <div class="col-md-6">
+    <div class="pie-chart-tooltips">
+      <p>Each month, I spend around 900 EUR. Out of that amount:</p>
+      <ul>
+        <li><div class="hover-pie-chart" style="color: #3366cc;"><div class="hover-pie-chart-amount">61.1%</div> goes towards <strong>basic living costs</strong>. <small>rent, bills, Internet connection, food</small></div></li>
+        <li><div class="hover-pie-chart" style="color: #dc3912;"><div class="hover-pie-chart-amount">20.0%</div> goes towards <strong>luxury</strong>. <small>caffeine, niccotine, alcohol</small></div></li>
+        <li><div class="hover-pie-chart" style="color: #ff9900;"><div class="hover-pie-chart-amount">10.2%</div> goes towards <strong>my education</strong>. <small>MOOCs, books, certifications</small></div></li>
+        <li><div class="hover-pie-chart" style="color: #109618;"><div class="hover-pie-chart-amount">5.4%</div> goes towards <strong>infrastructure</strong>. <small>servers, domains, subscriptions</small></div></li>
+        <li><div class="hover-pie-chart" style="color: #990099;"><div class="hover-pie-chart-amount">3.3%</div> <strong>gets donated</strong> to a non-profit. <small>EFF, Tor Project, Internet Archive, Wikimedia Foundation</small></div></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-6" style="text-align: center;">
+    <div id="donutchart" style="width: 900px; height: 500px; padding-right: 50%;"></div>
+  </div>
+</div>
+
+<hr>
+
+Each month, I spend 900 EUR. Out of that amount of money:
+
+<ul>
+  <li><div class="hover-pie-chart-amount">61.1%</div> goes towards basic living costs. <small>rent, bills, Internet connection, food</small></div></li>
+  <li><div class="hover-pie-chart-amount">20%</div> goes towards luxury. <small>caffeine, niccotine, alcohol</small></div></li>
+  <li><div class="hover-pie-chart-amount">10.2%</div> goes towards my education. <small>MOOCs, books, certifications</small></div></li>
+  <li><div class="hover-pie-chart-amount">5.4%</div> goes towards infrastructure. <small>servers, domains, subscriptions</small></div></li>
+  <li><div class="hover-pie-chart-amount">3.3%</div> gets donated to a non-profit. <small>via donations</small></div></li>
+</ul>
