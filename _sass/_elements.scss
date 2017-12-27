@@ -272,6 +272,11 @@ figure.center img{
     font-family: 'Montserrat';
   }
 
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+
   .donation-desc {
     font-family: 'Raleway';
     padding-top: .75%;
@@ -343,4 +348,14 @@ figure.center img{
     width: 110px;
     float: left;
   }
+}
+
+.don-amount {
+  color: green;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.don-total {
+  float: right;
 }
