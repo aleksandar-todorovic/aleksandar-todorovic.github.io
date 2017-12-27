@@ -768,6 +768,7 @@ ul.social-buttons li a:active {
 .nav-full-size {
 	font-family: 'Railway', sans-serif;
 	text-align: center;
+	margin-top: 25px;
 	@media #{$medium} {
 		width: 35%;
 		font-size: 25px;
@@ -869,6 +870,9 @@ ul.social-buttons li a:active {
 .listing {
 	font-family: 'Raleway', sans-serif;
 	h2 {
+		-webkit-margin-before: 0px;
+		-webkit-margin-after: 0px;
+		padding-top: 20px;
 		font-family: 'Montserrat', 'Open Sans', sans-serif;
 	}
 	@media #{$medium} {
@@ -886,7 +890,9 @@ ul.social-buttons li a:active {
 
 .listing-homepage {
 	list-style-type: none;
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 2%;
 	margin: 0;
 	li {
 		@media #{$medium} {
