@@ -4,37 +4,51 @@ permalink: "/en/spendings/"
 layout: homepage
 ---
 
-<div class="row">
-  <script type="text/javascript" src="{{ site.base_url }}/assets/js/chart-loader.js"></script>
-  <script type="text/javascript">
-    google.charts.load("current", {packages:["corechart"]});
-    google.charts.setOnLoadCallback(drawChart);
-    function drawChart() {
-      var data = google.visualization.arrayToDataTable([
-        ['Cause', 'Percentage'],
-        ['Basic living costs',  61.1],
-        ['Luxury',  20],
-        ['Education', 10.2],
-        ['Infrastructure', 5.4],
-        ['Back to the community', 3.3]
-      ]);
+<script type="text/javascript" src="{{ site.base_url }}/assets/js/chart-loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
 
-      var options = {
-        legend: 'none',
-        pieSliceText: 'label',
-        tooltip: { text: 'percentage' },
-      };
+    /* feed the data */
+    var data = google.visualization.arrayToDataTable([
+      ['Cause', 'Percentage'],
+      ['Basic living costs',  61.1],
+      ['Luxury',  20],
+      ['Education', 10.2],
+      ['Infrastructure', 5.4],
+      ['Back to the community', 3.3]
+    ]);
 
-      var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
-      chart.draw(data, options);
-    }
-  </script>
+    /* set the pie chart options */
+    var options = {
+      legend: 'none',
+      pieSliceText: 'label',
+      tooltip: { trigger: 'none' },
+    };
+
+    /* draw the data */
+    var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+    var livexp = document.getElementById('LIVEXP');
+    chart.draw(data, options);
+
+    google.visualization.events.addListener(chart, 'onmouseover', function(entry) {
+      chart.setSelection([{row: entry.row}]),
+      livexp.value = "Hover"
+    });
+    google.visualization.events.addListener(chart, 'onmouseout', function(entry) {
+      chart.setSelection([]);
+    });
+
+  }
+</script>
 
   <div class="col-md-6">
     <div class="pie-chart-tooltips">
+      <p id="message_div"></p>
       <p>Each month, I spend around 900 EUR. Out of that amount:</p>
       <ul>
-        <li><div class="hover-pie-chart" style="color: #3366cc;"><div class="hover-pie-chart-amount">61.1%</div> goes towards <strong>basic living costs</strong>. <small>rent, bills, Internet connection, food</small></div></li>
+        <li><div class="hover-pie-chart" style="color: #3366cc;" id="LIVEXP"><div class="hover-pie-chart-amount">61.1%</div> goes towards <strong>basic living costs</strong>. <small>rent, bills, Internet connection, food</small></div></li>
         <li><div class="hover-pie-chart" style="color: #dc3912;"><div class="hover-pie-chart-amount">20.0%</div> goes towards <strong>luxury</strong>. <small>caffeine, niccotine, alcohol</small></div></li>
         <li><div class="hover-pie-chart" style="color: #ff9900;"><div class="hover-pie-chart-amount">10.2%</div> goes towards <strong>my education</strong>. <small>MOOCs, books, certifications</small></div></li>
         <li><div class="hover-pie-chart" style="color: #109618;"><div class="hover-pie-chart-amount">5.4%</div> goes towards <strong>infrastructure</strong>. <small>servers, domains, subscriptions</small></div></li>
