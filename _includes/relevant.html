@@ -3,7 +3,7 @@
     <p class="btn">Random project that I support</p>
   </div><!-- /.read-more-header -->
   <div class="read-more-content">
-    <script type="text/javascript">
+    <script>
       var relevant_en = ["creative_commons.png", "digitally_imported.png", "duckduckgo.png", "eff.png", "elementary_os.png", "firefox.png", "gitlab.png", "gnome.png", "investigative_dashboard.png", "jekyll.png", "libreoffice.png", "nmap.png", "opensource.png", "piwik.png", "tor_project.png", "wireshark.png"];
       function getRandomImageEn(imgAr, path) {
         var num = Math.floor( Math.random() * imgAr.length );
@@ -64,7 +64,7 @@
           document.write(imgStr); document.close();
       }
     </script>
-    <script type="text/javascript">getRandomImageEn(relevant_en, '../../images/relevant/')</script>
+    <script>getRandomImageEn(relevant_en, '../../images/relevant/')</script>
     <div style="float: right; font-size: 1rem;"><a href="../../relevant-content">Why am I seeing this?</a></div>
   </div>
 </div>
