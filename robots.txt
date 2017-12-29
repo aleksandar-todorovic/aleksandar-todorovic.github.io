@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /assets/
+Disallow: /assets/*.pdf
+Disallow: /assets/*.rar
 Disallow: .gitignore
 Disallow: CNAME
 Disallow: _config.yml
