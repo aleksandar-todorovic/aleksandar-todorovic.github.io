@@ -28,13 +28,6 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-<link rel="stylesheet" href="{{ site.url }}/assets/css/jquery.mmenu.all.css">
-<link rel="stylesheet" href="{{ site.url }}/assets/css/jquery.floating-social-share.min.css">
-<link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-grid-and-code.css">
-<!-- Webfonts -->
-
 <meta http-equiv="cleartype" content="on">
 <meta name="theme-color" content="#000"/>
 <!-- Icons -->
@@ -47,3 +40,27 @@
 {% endif %}
 
 <link rel="author" href="https://plus.google.com/+AleksandarTodorovićr3bl"/>
+
+<!-- Critical CSS elements -->
+<style>
+.summary {text-align: center;}
+.summary-logo {
+  text-align: center;
+  padding-top: 30px;
+  img {
+    width: 250px;
+  }
+}
+</style>
+
+<!-- Lazy load the CSS + add a fallback -->
+<script type="text/javascript">
+  var stylesheet = document.createElement('link');
+  stylesheet.href = '{{ site.baseurl }}/assets/css/main.css';
+  stylesheet.rel = 'stylesheet';
+  stylesheet.type = 'text/css';
+  document.getElementsByTagName('head')[0].appendChild(stylesheet);
+</script>
+<noscript>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css"/>
+</noscript>
