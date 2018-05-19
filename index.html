@@ -12,55 +12,91 @@ tags:
 ---
 
 <div class="summary" itemscope itemtype="http://schema.org/Person">
-  <div class="image-avatar">
+  <div class="summary-logo">
     <a href="{{ site.baseurl }}" itemprop="url">
-      <img itemprop="image" src="https://r3bl.me/images/avatar.jpg" alt="avatar" style="border-radius: 100%; height: 150px;">
+      <img itemprop="image" src="http://localhost:4000/assets/logo-lowq2.png" alt="logo" style="width: 250px;">
     </a>
   </div>
-  <h1 class="site-title">
-    <div class="brand" itemprop="name">Aleksandar Todorović</div> (<div class="brand" itemprop="additionalName">r3bl</div>)
-  </h1>
-  <div class="buttons-homepage" style="padding-bottom: 1%;">
-    <div class="nav-secondary">
-      <a href="https://blog.r3bl.me" class="btn btn-nav btn-writing">blog</a>
-    </div>
-    <div class="button-invisible">
-    </div>
-    <div class="nav-secondary">
-      <a href="{{ site.baseurl }}/en/projects/" class="btn btn-nav btn-programming">projects</a>
-    </div>
-    <div class="button-invisible">
-    </div>
-    <div class="nav-secondary">
-      <a href="{{ site.baseurl }}/en/portfolio/" class="btn btn-nav btn-writing">portfolio</a>
-    </div>
-    <div class="button-invisible">
-    </div>
-    <div class="nav-secondary">
-      <a href="https://github.com/aleksandar-todorovic/notes" class="btn btn-nav btn-writing">notes</a>
-    </div>
+  <div class="summary-title">
+    <h1>Aleksandar Todorović (r3bl)</h1>
   </div>
-  <p>
-    Ford-<span style="background-color: #000; color: #FFF; padding-left: 5px; padding-right:5px; font-family: 'Zilla Slab'">moz://a</span> <a href="https://advocacy.mozilla.org/en-US/open-web-fellows/fellows2017">Open Web Fellow</a>. Hosted by <a href="https://www.bof.nl/english/">Bits of Freedom</a>. Passionate about information security.
-  </p>
-  <p>
-    Used to be techie at "<a href="https://www.youtube.com/watch?v=xA1sEjxPDWQ">The People's NSA</a>" (<a href="https://www.occrp.org/en">Organized Crime and Corruption Reporting Project</a>).<br/>
-  </p>
-  <p>
-    Contributed to a couple of worldy-known open source projects such as <a href="https://elementary.io/">elementary OS</a> and the <a href="https://www.torproject.org/">Tor Project</a>.
-  </p>
-  <p><br/>
-    I write things in my free time.
-  </p>
-  <div class="social-media">
+  <!--
+  <div class="summary-social">
     <a itemprop="sameAs" href="https://github.com/{{ site.owner.github }}" rel="me"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a itemprop="sameAs" href="https://twitter.com/{{ site.owner.twitter }}" rel="me"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a itemprop="sameAs" href="https://www.facebook.com/{{ site.owner.facebook }}" rel="me"><i class="fa fa-facebook" aria-hidden="true"></i></a>
     <a href="{{ site.baseurl }}/en/contact/"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+  </div>-->
+  <div class="summary-desc">
+    <div class="desc-short">
+      <p>Ford-<span style="background-color: #000; color: #FFF; padding-left: 5px; padding-right:5px; font-family: 'Zilla Slab'">moz://a</span> <a href="https://advocacy.mozilla.org/en-US/open-web-fellows/fellows2017">Open Web Fellow</a>. Hosted by <a href="https://www.bof.nl/english/">Bits of Freedom</a>.</p>
+    </div>
+    <!--<div class="expandContent"><a href="#" style="font-family: 'Montserrat'; color: rgba(0,0,0,0.5); border-bottom: 1px dotted rgba(51,51,51,0.5); font-size: 80%;">Tap here for a few more sentences.</a></div>-->
+    <div class="desc-long">
+      <p>Passionate about information security, open source, copyleft, and electronic music. <br/>Used to be techie at "<a href="https://www.youtube.com/watch?v=xA1sEjxPDWQ">The People's NSA</a>" (<a href="https://www.occrp.org/en">Organized Crime and Corruption Reporting Project</a>). <br/>Contributed to a couple of worldy-known open source projects such as <a href="https://duckduckgo.com/">DuckDuckGo</a>, and the <a href="https://www.torproject.org/">Tor Project</a>.</p>
+    </div>
   </div>
-
+  <div class="summary-tlds">
+    <a href="https://r3bl.me">
+      <div class="tld-me">
+        .me
+      </div>
+    </a>
+    <a href="https://r3bl.blog">
+      <div class="tld-blog">
+        .blog
+      </div>
+    </a>
+    <a href="https://r3bl.tech">
+      <div class="tld-tech">
+        .tech
+      </div>
+    </a>
+    <a href="https://r3bl.dj">
+      <div class="tld-dj">
+        .dj
+      </div>
+    </a>
+  </div>
 </div>
 
+<div class="clearfix"></div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <div class="listing">
+      <h2 style="text-align: center;">What I wrote about recently</h2>
+      <ul class="listing-homepage">
+        <li><a href="https://blog.r3bl.me/en/the-city-whose-name-i-cannot-mention/">The city I write this in protected its name, so I am not legally allowed to use it</a>, in which I explained how the capital of Bosnia & Herzegovina tries to trademark the name of the city.</li>
+        <li><a href="https://blog.r3bl.me/en/top-17-songs-of-2017/">My Top 17 Songs of 2017</a>, in which I shared the songs that I liked the most during the year.</li>
+        <li><a href="https://blog.r3bl.me/en/recreating-firefox-focus-behavior-on-desktop/">Three ways of re-creating Firefox Focus behavior on Firefox desktop</a>, in which I explored different options of making Firefox behave like Firefox Focus does on smartphones.</li>
+      </ul>
+    </div>
+  </div>
+  <!--
+  <div class="col-xs-12 col-md-6">
+    <div class="donations">
+      <h2>Donations</h2>
+      <div class="donation-desc">
+        <ol>
+          <li>I build cool things.</li>
+          <li>I write about and support cool things.</li>
+          <li>I give back to the community.</li>
+          <li>I'm transparent about my spendings.</li>
+        </ol>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 donation-btn nav-secondary">
+          <a href="#"><div class="btn-don">learn more</div></a>
+        </div>
+        <div class="col-xs-6 donation-btn nav-secondary">
+          <a href="#"><div class="btn-don">see spendings</div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+</div>
 <div class="accomplishments">
   <div class="accomplishments-caption">
     Achievements
@@ -110,52 +146,22 @@ tags:
 
 </div>
 
-<div class="clearfix"></div>
-
-<div class="row">
-  <div class="col-xs-12">
-    <div class="listing">
-      <h2 style="text-align: center;">What I wrote about recently</h2>
-      <ul class="listing-homepage">
-        <li><a href="https://blog.r3bl.me/en/the-city-whose-name-i-cannot-mention/">The city I write this in protected its name, so I am not legally allowed to use it</a>, in which I explained how the capital of Bosnia & Herzegovina tries to trademark the name of the city.</li>
-        <li><a href="https://blog.r3bl.me/en/top-17-songs-of-2017/">My Top 17 Songs of 2017</a>, in which I shared the songs that I liked the most during the year.</li>
-        <li><a href="https://blog.r3bl.me/en/recreating-firefox-focus-behavior-on-desktop/">Three ways of re-creating Firefox Focus behavior on Firefox desktop</a>, in which I explored different options of making Firefox behave like Firefox Focus does on smartphones.</li>
-      </ul>
-    </div>
-  </div>
-  <!--
-  <div class="col-xs-12 col-md-6">
-    <div class="donations">
-      <h2>Donations</h2>
-      <div class="donation-desc">
-        <ol>
-          <li>I build cool things.</li>
-          <li>I write about and support cool things.</li>
-          <li>I give back to the community.</li>
-          <li>I'm transparent about my spendings.</li>
-        </ol>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 donation-btn nav-secondary">
-          <a href="#"><div class="btn-don">learn more</div></a>
-        </div>
-        <div class="col-xs-6 donation-btn nav-secondary">
-          <a href="#"><div class="btn-don">see spendings</div></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
+<div class="listing">
+    <h2 style="text-align: center;">Favorite articles (written by me)</h2>
+    <ul class="listing-homepage">
+      <li>2018-01-21 <a href="https://blog.r3bl.me/en/the-city-whose-name-i-cannot-mention/">The city I write this in protected its name, so I am not legally allowed to use it</a></li>
+      <li>2017-10-20 <a href="https://blog.r3bl.me/en/recreating-firefox-focus-behavior-on-desktop/">Three ways of re-creating Firefox Focus behavior on Firefox desktop</a></li>
+      <li>2016-06-12 <a href="https://blog.r3bl.me/en/yubikey-usefulness/">YubiKey NEO: Ubuntu 16.04 usefulness (+ review)</a></li>
+      <li>2015-06-30 <a href="https://opensource.com/life/15/6/my-linux-story-Aleksandar-Todorovic">Linux as a lifestyle <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      <li>2015-02-16 <a href="http://opensource.com/life/15/2/beginners-guide-github">A beginner's guide to GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>, an <a href="https://opensource.com/community/16/2/winners-2016-community-awards">award winning article <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+    </ul>
 </div>
 <div class="donations">
   <div class="listing">
-    <h2>Favorite articles (written by me)</h2>
+    <h2 style="text-align: center;">Other types of media</h2>
     <ul class="listing-homepage">
-      <li class="invert-colors">2018-01-21 <a href="https://blog.r3bl.me/en/the-city-whose-name-i-cannot-mention/">The city I write this in protected its name, so I am not legally allowed to use it</a></li>
-      <li class="invert-colors">2017-10-20 <a href="https://blog.r3bl.me/en/recreating-firefox-focus-behavior-on-desktop/">Three ways of re-creating Firefox Focus behavior on Firefox desktop</a></li>
-      <li class="invert-colors">2016-06-12 <a href="https://blog.r3bl.me/en/yubikey-usefulness/">YubiKey NEO: Ubuntu 16.04 usefulness (+ review)</a></li>
-      <li class="invert-colors">2015-06-30 <a href="https://opensource.com/life/15/6/my-linux-story-Aleksandar-Todorovic">Linux as a lifestyle <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-      <li class="invert-colors">2015-02-16 <a href="http://opensource.com/life/15/2/beginners-guide-github">A beginner's guide to GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>, an <a href="https://opensource.com/community/16/2/winners-2016-community-awards">award winning article <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      <li class="invert-colors"><div class="pub-date">2016-05-04</div> <a href="https://www.youtube.com/watch?v=PwRpxWjKUPM">Kontekst: Internet i sigurnost <i class="fa fa-external-link" aria-hidden="true"></i></a> (guest at an Al Jazeera Balkans TV show)</li>
+      <li class="invert-colors"><div class="pub-date">2014-12-??</div> <a href="http://www.giswatch.org/node/5243">BOSNA I HERCEGOVINA: Kontinuitet nadzora <i class="fa fa-external-link" aria-hidden="true"></i></a> (Global Information Society Watch paper mentioning my work)</li>
     </ul>
   </div>
 </div>
@@ -169,16 +175,8 @@ tags:
       <li><div class="pub-date">2012-03-06</div> <span>DJTechTools</span> <a href="http://djtechtools.com/2012/03/06/djing-with-a-computer-keyboard/">DJing With A Computer Keyboard <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
   </ul>
 </div>
-<div class="donations">
-  <div class="listing">
-    <h2 style="text-align: center;">Other types of media</h2>
-    <ul class="listing-homepage">
-        <li class="invert-colors"><div class="pub-date">2016-05-04</div> <a href="https://www.youtube.com/watch?v=PwRpxWjKUPM">Kontekst: Internet i sigurnost <i class="fa fa-external-link" aria-hidden="true"></i></a> (guest at an Al Jazeera Balkans TV show)</li>
-        <li class="invert-colors"><div class="pub-date">2014-12-??</div> <a href="http://www.giswatch.org/node/5243">BOSNA I HERCEGOVINA: Kontinuitet nadzora <i class="fa fa-external-link" aria-hidden="true"></i></a> (Global Information Society Watch paper mentioning my work)</li>
-    </ul>
-  </div>
-</div>
 
+<!--
 <div class="listing">
   <h2 style="text-align: center;">Donations I've made in 2017</h2>
   <div style="display: inline-block; text-align: center;">
@@ -199,3 +197,5 @@ tags:
   </ul>
   <div class="don-total">Total amount donated in 2017: <div class="don-amount">~€315</div>/<div class="don-amount"> ~$385</div></div>
 </div>
+
+-->

@@ -363,6 +363,7 @@ figure.center img{
 }
 
 .don-total {
+  padding-top: 20px;
   float: right;
 }
 
@@ -378,9 +379,14 @@ figure.center img{
 }
 
 #donutchart {
-  width: 800px;
-  margin: 0 auto;
-  text-align: left;
+  @media screen and (min-width: 992px) {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  @media screen and (max-width: 992px) {
+    visibility: hidden;
+  }
 }
 
 .pie-chart-tooltips{

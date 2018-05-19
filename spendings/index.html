@@ -4,8 +4,8 @@ permalink: "/en/spendings/"
 layout: homepage
 ---
 
-<script type="text/javascript" src="{{ site.base_url }}/assets/js/chart-loader.js"></script>
-<script type="text/javascript">
+<script src="{{ site.base_url }}/assets/js/chart-loader.js"></script>
+<script>
   google.charts.load("current", {packages:["corechart"]});
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
@@ -43,7 +43,7 @@ layout: homepage
   }
 </script>
 
-  <div class="col-md-6">
+  <div class="col-xs-12 col-md-6">
     <div class="pie-chart-tooltips">
       <p id="message_div"></p>
       <p>Each month, I spend around 900 EUR. Out of that amount:</p>
@@ -57,18 +57,6 @@ layout: homepage
     </div>
   </div>
   <div class="col-md-6" style="text-align: center;">
-    <div id="donutchart" style="width: 900px; height: 500px; padding-right: 50%;"></div>
+    <div id="donutchart" style="width: 900px; height: 500px; padding-right: 45%;"></div>
   </div>
 </div>
-
-<hr>
-
-Each month, I spend 900 EUR. Out of that amount of money:
-
-<ul>
-  <li><div class="hover-pie-chart-amount">61.1%</div> goes towards basic living costs. <small>rent, bills, Internet connection, food</small></div></li>
-  <li><div class="hover-pie-chart-amount">20%</div> goes towards luxury. <small>caffeine, niccotine, alcohol</small></div></li>
-  <li><div class="hover-pie-chart-amount">10.2%</div> goes towards my education. <small>MOOCs, books, certifications</small></div></li>
-  <li><div class="hover-pie-chart-amount">5.4%</div> goes towards infrastructure. <small>servers, domains, subscriptions</small></div></li>
-  <li><div class="hover-pie-chart-amount">3.3%</div> gets donated to a non-profit. <small>via donations</small></div></li>
-</ul>
