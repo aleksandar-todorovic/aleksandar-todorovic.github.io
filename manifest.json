@@ -1,0 +1,20 @@
+{
+  "short_name": "r3bl.me",
+  "name": "Aleksandar Todorović (r3bl)",
+  "icons": [
+    {
+      "src": "/assets/logos/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/logos/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFF",
+  "display": "standalone",
+  "theme_color": "#000"
+}

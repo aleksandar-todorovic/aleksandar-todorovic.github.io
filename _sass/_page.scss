@@ -211,10 +211,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 	h2 {
 		text-align: center;
-		-webkit-margin-before: 0px;
-		-webkit-margin-after: 0px;
-		padding-top: 20px;
+		padding-top: 40px;
 		font-family: 'Montserrat', sans-serif;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 	@media #{$medium} {
 		width: 85%;
@@ -269,4 +269,34 @@ body {
 	padding-left: 5px;
 	padding-right:5px;
 	font-family: 'Zilla Slab', 'Arial', 'Times New Roman';
+}
+
+.tabs {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 26px;
+}
+
+.black {
+	background-color: #000;
+	color: #fff !important;
+	border-style: none;
+}
+
+.white {
+	background-color: #fff;
+	color: #000 !important;
+	border-style: none;
+}
+
+.tablinks {
+	padding: 5px;
+	font-family: 'Zilla Slab', 'Arial', 'Times New Roman';
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
