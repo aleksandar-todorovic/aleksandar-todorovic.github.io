@@ -10,7 +10,7 @@ collections:
     output: true
 description: Hacker. Blogger. infosec enthusiast. Free culture and open source advocate.
   Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
-url: https://r3bl.me
+url: https://beta.r3bl.me
 menu:
 - title: Home
   url: https://r3bl.me
@@ -24,7 +24,7 @@ menu:
   url: https://r3bl.me/en/contact/
 owner:
   name: Aleksandar Todorović
-  site: https://r3bl.me
+  site: https://beta.r3bl.me
   avatar: images/avatar.jpg
   bio: Hacker. Blogger. infosec enthusiast. Free culture and open source advocate.
     Ford-Mozilla Open Web fellow. Previously OCCRP tech associate.
