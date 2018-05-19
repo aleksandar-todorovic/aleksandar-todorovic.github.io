@@ -1,3 +1,18 @@
+@font-face {
+	font-family: 'Zilla Slab';
+	src: url('http://localhost:4000/assets/fonts/ZillaSlab-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('http://localhost:4000/assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('http://localhost:4000/assets/fonts/Lato-Regular.ttf');
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -993,4 +1008,13 @@ ul.social-buttons li a:active {
 			padding-bottom:1px;
 		}
 	}
+}
+
+
+.mozilla-font {
+	background-color: #000;
+	color: #FFF;
+	padding-left: 5px;
+	padding-right:5px;
+	font-family: 'Zilla Slab';
 }
