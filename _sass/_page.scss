@@ -441,6 +441,29 @@ ul.social-buttons li a:active {
 	}
 }
 
+.footer {
+	display: block;
+	margin: 15px 0 15px 0;
+	a {
+		color: rgba(51,51,51,0.8);
+		border-bottom: 1px dotted rgba(51,51,51,0.8);
+	}
+	a:hover {
+		color: rgba(51,51,51,0.8);
+		border-bottom: 1px solid rgba(51,51,51,0.8);
+	}
+}
+
+.footer-hr {
+	@media #{$small} {
+		width: 100%;
+	}
+	@media #{$medium} {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
 // Social Share
 // --------------------------------------------------
 .socialcount {
