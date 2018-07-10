@@ -1,9 +1,8 @@
-<div style="text-align: center;"> 
-<h1 style="display: none;">r3bl.me</h1> 
-<img src="https://r3bl.me/assets/logos/logo-256.png" /> 
-<h3><a href="https://r3bl.me">.me</a> // <a href="https://r3bl.blog">.blog</a> // <a href="https://r3bl.tech">.tech</a> // <a href="https://r3bl.dj">.dj</a></h3> 
-</div> 
- 
+<h1 align="center">r3bl.me</h1> 
+<p align="center"><img src="https://r3bl.me/assets/logos/logo-256.png" /></p>
+<h3 align="center"><a href="https://r3bl.me">.me</a> // <a href="https://r3bl.blog">.blog</a> // <a href="https://r3bl.tech">.tech</a> // <a href="https://r3bl.dj">.dj</a></h3>
+<hr/>
+
 ## Metadata 
  
 * **Project purpose:** My personal homepage. 
