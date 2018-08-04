@@ -1,0 +1,34 @@
+<div class="read-more">
+  <div class="read-more-header">
+    <p class="btn">Random project that I support</p>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content">
+    <script>
+      var relevant_en = ["creative_commons.png", "digitally_imported.png", "duckduckgo.png", "eff.png", "elementary_os.png", "firefox.png", "gitlab.png", "gnome.png", "investigative_dashboard.png", "jekyll.png", "libreoffice.png", "nmap.png", "opensource.png", "piwik.png", "tor_project.png", "wireshark.png"];
+      //var relevant_en = [
+      //{% for relevant in site.data.relevant-projects %}
+      //  "{{ relevant.image_url }}",
+      //{% endfor %}
+      //];
+      function getRandomImageEn(imgAr, path) {
+        var num = Math.floor( Math.random() * imgAr.length );
+        var img = imgAr[ num ];
+        var url;
+        var alt;
+        switch (img)
+        {
+          {% for relevant in site.data.relevant-projects %}
+            case "{{ relevant.image_url }}":
+              url = "{{ relevant.page_url }}";
+              alt = "{{ relevant.page_alt }}";
+              break;
+          {% endfor %}
+        }
+        var imgStr = '<a href="' + url + '"><img src="' + path + img + '" alt="' + alt + '"/></a>';
+        document.write(imgStr); document.close();
+      }
+    </script>
+    <script>getRandomImageEn(relevant_en, '{{ site.url }}/images/relevant/')</script>
+    <div style="float: right; font-size: 1rem;"><a href="https://r3bl.blog/en/relevant-content">Why am I seeing this?</a></div>
+  </div>
+</div>

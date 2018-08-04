@@ -1,0 +1,44 @@
+---
+title: "Books I've read"
+description: "List of the books I've read, am currently reading, and am planning on reading"
+permalink: "/en/books/"
+layout: "page"
+categories: "en"
+---
+
+<div style="width: auto; height: auto; display: block;" ng-app="tabApp">
+  <div ng-controller="TabController">
+    <div class="row" ng-init="tab = 1">
+      <a href="" class="col-xs-12 col-md-3 homepage-tab" style="text-align: center;" ng-class="{1: 'active', 2: 'not-active', 3: 'not-active', 4: 'not-active', 5: 'not-active'}[tab]" ng-click="tab = 1">2018</a>
+      <a href="" class="col-xs-12 col-md-3 homepage-tab" style="text-align: center;" ng-class="{1: 'not-active', 2: 'active', 3: 'not-active', 4: 'not-active', 5: 'not-active'}[tab]" ng-click="tab = 2">2017</a>
+      <a href="" class="col-xs-12 col-md-3 homepage-tab" style="text-align: center;" ng-class="{1: 'not-active', 2: 'not-active', 3: 'active', 4: 'not-active', 5: 'not-active'}[tab]" ng-click="tab = 3">2016</a>
+      <a href="" class="col-xs-12 col-md-3 homepage-tab" style="text-align: center;" ng-class="{1: 'not-active', 2: 'not-active', 3: 'not-active', 4: 'active', 5: 'not-active'}[tab]" ng-click="tab = 4">2015</a>
+    </div>
+    <div class="row" style="text-align: center;">
+      <a href="" class="col-xs-12 col-md-3 homepage-tab" style="text-align: center; display: inline-block; float: none;" ng-class="{1: 'not-active', 2: 'not-active', 3: 'not-active', 4: 'not-active', 5: 'active'}[tab]" ng-click="tab = 5">Prior to 2015</a>
+    </div>
+    <div ng-show="tab == 1">
+      {% include components/book-list.html year="2018" %}
+    </div>
+    <div ng-show="tab == 2">
+      {% include components/book-list.html year="2017" %}
+    </div>
+    <div ng-show="tab == 3">
+      {% include components/book-list.html year="2016" %}
+    </div>
+    <div ng-show="tab == 4">
+      {% include components/book-list.html year="2015" %}
+    </div>
+    <div ng-show="tab == 5">
+      {% include components/book-list-prior.html %}
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+<script type="text/javascript">
+angular.module('tabApp',[])
+  .controller('TabController',[function(){
+    var self = this;
+    self.message = 'address';
+  }]);
+</script>

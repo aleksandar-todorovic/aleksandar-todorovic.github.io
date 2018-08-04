@@ -40,7 +40,7 @@ plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
 sass:
-  sass_dir: _sass
+  sass_dir: common/_sass
   style: compressed
 permalink: "/:categories/:title/"
 include:
@@ -66,3 +66,7 @@ exclude:
 - Gruntfile.js
 - package.json
 - node_modules
+
+
+layouts_dir:     common/_layouts
+includes_dir:    common/_includes

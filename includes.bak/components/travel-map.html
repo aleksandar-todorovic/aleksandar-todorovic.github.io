@@ -1,0 +1,44 @@
+<script src="{{ site.url }}/assets/js/ammap.js" type="text/javascript"></script>
+<script src="{{ site.url }}/assets/js/worldHigh.js" type="text/javascript"></script>
+<script src="{{ site.url }}/assets/js/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="height: 450px; width: auto;"></div>
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#FFFFFF",
+backgroundAlpha : 0,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+{% for country in site.data.countries-visited %}
+{
+  "id": "{{ country.code }}",
+  "showAsSelected": true
+},
+{% endfor %}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#000000",
+colorSolid : "#90C5BA",
+selectedColor : "#00D1A6",
+outlineColor : "#00755D",
+rollOverColor : "#00755D",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+<div style="text-align: center;">
+<p><strong>Country of origin:</strong> <img style="display: inline-block;" src="{{ site.url }}/assets/blank.gif" class="flag flag-ba" alt="Bosnia and Herzegovina" /></p>
+{% for country in site.data.countries-visited %}
+  <img style="display: inline-block;" src="{{ site.url }}/assets/blank.gif" class="flag flag-{{ country.code | downcase }}" alt="{{ country.name }}" />
+{% endfor %}

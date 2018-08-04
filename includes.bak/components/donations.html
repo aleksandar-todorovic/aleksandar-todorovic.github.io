@@ -1,0 +1,3 @@
+{% for donation in site.data.donations-2017 %}
+* {{ donation.amount }} {{ donation.currency }} to [{{ donation.org }}]({{ donation.org_url }}): {{ donation.description }}
+{% endfor %}

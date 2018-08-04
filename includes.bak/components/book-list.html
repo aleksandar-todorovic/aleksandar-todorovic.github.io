@@ -1,0 +1,9 @@
+{% for book in site.data.books-read %}
+{% if book.year_read == include.year %}
+{% if book.isbn == "None" %}
+* [{{ book.title }}]({{ book.link }}) by {{ book.author }} (ISBN unknown)
+{% else %}
+* [{{ book.title }}]({{ book.link }}) by {{ book.author }} (ISBN: {{ book.isbn }})
+{% endif %}
+{% endif %}
+{% endfor %}
