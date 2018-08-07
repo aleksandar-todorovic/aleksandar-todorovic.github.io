@@ -1,5 +1,62 @@
 @font-face {
    font-family: 'Overpass';
-   src: url(Overpass-Regular.ttf);
+   src: local('Overpass'), local('Overpass-Regular'),
+        url('/assets/fonts/Overpass-Regular.ttf') format('truetype');
    font-weight: 200;
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/raleway-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Regular'),
+       url('/assets/fonts/raleway-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/raleway-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/raleway-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/raleway-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/raleway-v12-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fontslato-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('/assets/fontslato-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fontslato-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fontslato-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fontslato-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fontslato-v14-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('/assets/fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* zilla-slab-regular - latin */
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/zilla-slab-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Zilla Slab'), local('ZillaSlab-Regular'),
+       url('/assets/fonts/zilla-slab-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/zilla-slab-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/zilla-slab-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/zilla-slab-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/zilla-slab-v3-latin-regular.svg#ZillaSlab') format('svg'); /* Legacy iOS */
 }
